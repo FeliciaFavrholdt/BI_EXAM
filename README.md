@@ -8,7 +8,7 @@
 Business Intelligence 2025  
 Copenhagen Business Academy, Lyngby  
 
-GitHub Repository: [Speakscape_BI_Exam_Group_4](https://github.com/FeliciaFavrholdt/Speakscape_BI_Exam_Group_4/tree/main)
+GitHub Repository: [Speakscape_BI_Exam_Group_4]()
 
 ### Felicia Favrholdt
 - Email: [cph-ff62@cphbusiness.dk](mailto:cph-ff62@cphbusiness.dk)  
