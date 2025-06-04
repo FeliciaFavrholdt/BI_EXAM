@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# excluded files from project - optimize git push/pull dataset
+alzheimers_disease_data.csv
+
 # C extensions
 *.so
 
