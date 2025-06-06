@@ -26,9 +26,6 @@ def save_notebook_and_summary(notebook_name, summary, folder_path="../reports"):
 
     print(f"Summary saved to: {filepath}")
 
-import os
-from matplotlib.figure import Figure
-
 def save_plot(fig: Figure, filename: str, caption: str = "", folder_path: str = "../plots"):
     """
     Saves a matplotlib/seaborn figure and its caption for Streamlit use.
