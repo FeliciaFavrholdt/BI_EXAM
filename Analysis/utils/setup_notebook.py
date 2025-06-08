@@ -32,9 +32,7 @@ def load_csv(filepath):
     """
     df = pd.read_csv(filepath)
     print(f"Loaded data from {filepath} with shape {df.shape}")
-    return df
-
-from IPython.display import display
+    return df 
 
 def quick_overview(df, preview_columns=None):
     """
@@ -49,8 +47,11 @@ def quick_overview(df, preview_columns=None):
     print(f"Rows: {df.shape[0]}, Columns: {df.shape[1]}")
     
     print("\n----- Data Types and Non-Null Counts -----")
-    display(df.info(verbose=False, show_counts=True))
-    
+    df.info(verbose=False, show_counts=True)
+
+    print("\n----- Overview of dataset -----")
+    df.info()
+
     print("\n----- Statistical Summary -----")
     print("This summary includes counts, mean, standard deviation, min, max, and percentiles for numeric and categorical columns.\n")
     if preview_columns:
