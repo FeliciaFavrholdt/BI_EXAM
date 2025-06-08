@@ -2,6 +2,7 @@ import os
 import json
 from datetime import datetime
 from matplotlib.figure import Figure
+import matplotlib.pyplot as plt
 
 
 def save_notebook_and_summary(notebook_name, summary, folder_path="../reports"):
@@ -44,7 +45,7 @@ def save_plot(fig: Figure, filename: str, caption: str = "", folder_path: str = 
     # Save image
     image_path = os.path.join(folder_path, filename)
     fig.savefig(image_path, dpi=300, bbox_inches="tight")
-    fig.clf()
+    plt.close(fig)  # <-- Safely close the figure without interfering with display
 
     # Save caption
     if caption:

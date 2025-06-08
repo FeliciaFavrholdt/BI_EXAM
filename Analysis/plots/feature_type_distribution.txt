@@ -1,0 +1,1 @@
+Bar chart showing the number of features by type.
