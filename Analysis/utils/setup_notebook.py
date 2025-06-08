@@ -1,5 +1,3 @@
-# setup_notebook.py
-
 import os
 import pandas as pd
 import numpy as np
