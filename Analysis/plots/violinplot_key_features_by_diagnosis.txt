@@ -1,0 +1,1 @@
+Violin plots showing the distribution of MMSE, Functional Assessment, and ADL scores across diagnosis groups.

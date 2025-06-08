@@ -1,0 +1,1 @@
+Boxplot of AlcoholConsumption by Alzheimer's diagnosis group.

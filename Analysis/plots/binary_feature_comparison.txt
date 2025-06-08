@@ -1,0 +1,1 @@
+Grouped bar chart showing percentage of patients with binary features (value = 1), separated by Alzheimer's diagnosis.
