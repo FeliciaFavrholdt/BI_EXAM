@@ -1,0 +1,1 @@
+Boxplot of SleepQuality grouped by diagnosis (0 = No, 1 = Alzheimer's).
