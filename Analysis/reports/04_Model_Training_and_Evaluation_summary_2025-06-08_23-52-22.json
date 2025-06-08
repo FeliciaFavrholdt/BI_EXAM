@@ -1,0 +1,27 @@
+{
+    "notebook": "04_Model_Training_and_Evaluation",
+    "timestamp": "2025-06-08T23:52:22.664241",
+    "feature_set": [
+        "Age",
+        "MMSE",
+        "FunctionalAssessment",
+        "ADL",
+        "Disorientation",
+        "MemoryComplaints"
+    ],
+    "models_tested": [
+        "Logistic Regression",
+        "Decision Tree",
+        "Random Forest",
+        "SVM",
+        "KNN"
+    ],
+    "best_model": "Random Forest",
+    "accuracies": {
+        "Logistic Regression": 0.8023,
+        "Decision Tree": 0.814,
+        "Random Forest": 0.9,
+        "SVM": 0.8558,
+        "KNN": 0.8535
+    }
+}
