@@ -3,6 +3,7 @@ import json
 from datetime import datetime
 from matplotlib.figure import Figure
 
+
 def save_notebook_and_summary(notebook_name, summary, folder_path="../reports"):
     """
     Saves a structured project summary with metadata to a JSON file in the reports folder.

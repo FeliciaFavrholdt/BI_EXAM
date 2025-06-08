@@ -6,14 +6,10 @@ import matplotlib.pyplot as plt
 from IPython.display import display
 from sklearn.preprocessing import StandardScaler
 
+# -------------------- Environment Setup --------------------
 def init_environment():
     """
     Sets up folders and styling for reproducible project execution.
-    Creates the following folders if they don't exist:
-    - ../data
-    - ../models
-    - ../plots
-    - ../reports
     """
     sns.set_theme(style="whitegrid", palette="deep")
     pd.set_option('display.max_columns', None)
@@ -24,6 +20,7 @@ def init_environment():
 
     print("Environment setup complete.")
 
+# -------------------- Data Loading --------------------
 def load_csv(filepath):
     """
     Loads a CSV file and returns a DataFrame.
@@ -32,30 +29,45 @@ def load_csv(filepath):
     print(f"Loaded data from {filepath} with shape {df.shape}")
     return df 
 
-def quick_overview(df, preview_columns=None):
+# -------------------- Dataset Shape --------------------
+def print_shape(df):
     """
-    Provides a structured overview of the dataset.
-    Includes shape, data types, basic statistics, and a sample of the data.
-    
-    Parameters:
-    - df (DataFrame): The dataset to inspect.
-    - preview_columns (int or None): If set, limits the number of columns shown in the statistical summary.
+    Prints the number of rows and columns in the dataset.
     """
     print("----- Dataset Shape -----")
     print(f"Rows: {df.shape[0]}, Columns: {df.shape[1]}")
-    
+
+# -------------------- Info Summary --------------------
+def print_info(df):
+    """
+    Displays non-null counts and data types.
+    """
     print("\n----- Data Types and Non-Null Counts -----")
     df.info(verbose=False, show_counts=True)
 
-    print("\n----- Overview of dataset -----")
+def print_full_info(df):
+    """
+    Displays full info including memory usage and column types.
+    """
+    print("\n----- Full Dataset Info -----")
     df.info()
 
+# -------------------- Statistical Summary --------------------
+def print_description(df, preview_columns=None):
+    """
+    Displays descriptive statistics of the dataset.
+    """
     print("\n----- Statistical Summary -----")
-    print("This summary includes counts, mean, standard deviation, min, max, and percentiles for numeric and categorical columns.\n")
+    print("This summary includes count, mean, std, min, max, and percentiles.\n")
     if preview_columns:
-        display(df.describe(include="all").iloc[:, :preview_columns])
+        display(df.describe(include="all").T.iloc[:preview_columns, :])
     else:
-        display(df.describe(include="all"))
+        display(df.describe(include="all").T)
 
-    print("\n----- First 5 Rows -----")
-    display(df.head())
+# -------------------- First Rows --------------------
+def show_head(df, n=5):
+    """
+    Displays the first n rows of the dataset.
+    """
+    print(f"\n----- First {n} Rows -----")
+    display(df.head(n))
