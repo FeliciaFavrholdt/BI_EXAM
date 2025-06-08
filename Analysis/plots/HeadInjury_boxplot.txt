@@ -1,1 +1,0 @@
-Boxplot of HeadInjury by target class

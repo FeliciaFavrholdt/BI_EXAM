@@ -1,1 +1,0 @@
-Boxplot of Ethnicity by target class
