@@ -71,3 +71,16 @@ def show_head(df, n=5):
     """
     print(f"\n----- First {n} Rows -----")
     display(df.head(n))
+
+# -------------------- Categorical Summary --------------------
+def print_categorical_description(df):
+    """
+    Displays summary statistics for non-numeric (object or category) columns.
+    Useful for inspecting categorical variables.
+    """
+    print("\n----- Categorical Summary -----")
+    cat_summary = df.describe(include='object').T
+    if cat_summary.empty:
+        print("No non-numeric (object) columns to describe.")
+    else:
+        display(cat_summary)
