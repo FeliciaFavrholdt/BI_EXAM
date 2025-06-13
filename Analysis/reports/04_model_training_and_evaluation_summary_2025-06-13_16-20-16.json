@@ -1,0 +1,24 @@
+{
+    "description": "Trained and evaluated multiple supervised models for Alzheimer's classification using clinical, lifestyle, cognitive, and demographic features.",
+    "records_analyzed": 2149,
+    "features_used": 21,
+    "models_trained": [
+        "Logistic Regression",
+        "Decision Tree",
+        "Random Forest"
+    ],
+    "evaluation_metrics": [
+        "Accuracy",
+        "Confusion Matrix",
+        "ROC AUC Curve",
+        "Precision-Recall Curve",
+        "Average Precision"
+    ],
+    "key_results": {
+        "best_model": "Random Forest",
+        "best_accuracy": 0.8233,
+        "best_auc": 0.9409,
+        "best_ap": 0.9163
+    },
+    "output_file": "../data/model_results.csv"
+}
