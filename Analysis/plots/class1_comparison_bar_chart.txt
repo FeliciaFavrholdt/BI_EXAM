@@ -1,0 +1,1 @@
+Comparison of precision, recall and F1-score for class 1 (Alzheimer's) across three models.

@@ -1,0 +1,23 @@
+{
+    "description": "Trained and evaluated three supervised classification models for Alzheimer's prediction.",
+    "records_analyzed": 2149,
+    "features_used": 11,
+    "models_trained": [
+        "Decision Tree",
+        "Random Forest",
+        "Logistic Regression"
+    ],
+    "evaluation_metrics": [
+        "Accuracy",
+        "ROC AUC",
+        "Confusion Matrix",
+        "Precision, Recall, F1-score",
+        "Feature Importance"
+    ],
+    "key_results": {
+        "best_model": "Random Forest",
+        "best_accuracy": 0.8,
+        "best_auc": 0.91
+    },
+    "output_file": "../data/model_results.csv"
+}

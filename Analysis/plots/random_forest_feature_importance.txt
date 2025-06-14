@@ -1,0 +1,1 @@
+Bar chart showing the most important features used by the Random Forest model to predict Alzheimer's diagnosis.
