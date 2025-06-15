@@ -84,3 +84,23 @@ def print_categorical_description(df):
         print("No non-numeric (object) columns to describe.")
     else:
         display(cat_summary)
+
+
+# -------------------- Load our Models --------------------
+def load_model(filepath, model_name="Model"):
+    """
+    Loads a model from a pickle file using joblib.
+    Includes error handling.
+    """
+    import joblib
+
+    print(f"Loading {model_name} from {filepath}...")
+    try:
+        model = joblib.load(filepath)
+        print(f"{model_name} loaded successfully.")
+        return model
+    except FileNotFoundError:
+        print(f"Error: {model_name} file not found at {filepath}.")
+    except Exception as e:
+        print(f"Error loading {model_name}: {e}")
+    return None

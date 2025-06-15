@@ -4,7 +4,7 @@ from datetime import datetime
 from matplotlib.figure import Figure
 import matplotlib.pyplot as plt
 
-
+# -------------------- Save Notebook Summaries --------------------
 def save_notebook_and_summary(notebook_name, summary, folder_path="../reports"):
     """
     Saves a structured project summary with metadata to a JSON file in the reports folder.
@@ -28,6 +28,7 @@ def save_notebook_and_summary(notebook_name, summary, folder_path="../reports"):
 
     print(f"Summary saved to: {filepath}")
 
+# -------------------- Saving Plots --------------------
 def save_plot(fig: Figure, filename: str, caption: str = "", folder_path: str = "../plots"):
     """
     Saves a matplotlib/seaborn figure and its caption for Streamlit use.
@@ -58,7 +59,7 @@ def save_plot(fig: Figure, filename: str, caption: str = "", folder_path: str = 
     if caption:
         print(f"Caption saved to: {caption_path}")
 
-
+# -------------------- Saving Model Results --------------------
 def save_model_results(model_results, filename="model_results.json", folder_path="../data"):
     """
     Saves model evaluation results to a JSON file.
@@ -76,22 +77,3 @@ def save_model_results(model_results, filename="model_results.json", folder_path
         json.dump(model_results, f, indent=4)
 
     print(f"Model results saved to: {filepath}")
-
-# Model Loading
-def load_model(filepath, model_name="Model"):
-    """
-    Loads a model from a pickle file using joblib.
-    Includes error handling.
-    """
-    import joblib
-
-    print(f"Loading {model_name} from {filepath}...")
-    try:
-        model = joblib.load(filepath)
-        print(f"{model_name} loaded successfully.")
-        return model
-    except FileNotFoundError:
-        print(f"Error: {model_name} file not found at {filepath}.")
-    except Exception as e:
-        print(f"Error loading {model_name}: {e}")
-    return None
