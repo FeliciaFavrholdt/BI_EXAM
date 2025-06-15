@@ -1,1 +1,0 @@
-Scatterplot showing relationship between MMSE and Physical Activity, colored by Alzheimer's diagnosis.

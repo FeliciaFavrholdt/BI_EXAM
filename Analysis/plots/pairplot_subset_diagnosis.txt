@@ -1,1 +1,0 @@
-Pairplot for MMSE, ADL, and Physical Activity by Alzheimer's diagnosis group.

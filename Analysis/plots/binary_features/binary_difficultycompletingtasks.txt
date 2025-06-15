@@ -1,1 +1,0 @@
-Bar chart showing percentage of patients with DifficultyCompletingTasks = 1, grouped by Alzheimer's diagnosis.

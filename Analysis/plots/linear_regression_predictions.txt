@@ -1,1 +1,0 @@
-Linear regression predictions compared to true labels.

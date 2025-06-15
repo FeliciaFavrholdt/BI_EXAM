@@ -1,0 +1,1 @@
+Notebook 03 - Section: Binary Features by Diagnosis - Plot: Percentage of patients with 'PersonalityChanges' = 1 for each diagnosis group.

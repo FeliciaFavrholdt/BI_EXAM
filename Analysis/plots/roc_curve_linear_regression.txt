@@ -1,1 +1,0 @@
-ROC curve for linear regression model with AUC score.

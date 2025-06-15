@@ -1,0 +1,25 @@
+{
+    "description": "Performed in-depth exploratory data analysis (EDA) to examine clinical, lifestyle, and cognitive patterns related to Alzheimer's diagnosis.",
+    "records_analyzed": 2149,
+    "features_examined": 33,
+    "eda_steps": [
+        "Checked diagnosis class distribution",
+        "Compared binary features by diagnosis",
+        "Plotted distributions for all continuous features",
+        "Visualized lifestyle and cholesterol factors",
+        "Generated correlation heatmaps (full + zoomed)",
+        "Created violin and scatter plots of top predictors",
+        "Reviewed skewness and variance of key features"
+    ],
+    "key_insights": {
+        "top_predictors": [
+            "MMSE",
+            "FunctionalAssessment",
+            "ADL"
+        ],
+        "lifestyle_observations": "Moderate separation by diagnosis for SleepQuality and PhysicalActivity",
+        "cholesterol_observations": "High variance, low diagnostic separation",
+        "data_ready_for_modeling": true
+    },
+    "output_file": "../data/alzheimers_clean.csv"
+}

@@ -1,1 +1,0 @@
-Focused heatmap of correlations between key features related to Alzheimer's diagnosis.

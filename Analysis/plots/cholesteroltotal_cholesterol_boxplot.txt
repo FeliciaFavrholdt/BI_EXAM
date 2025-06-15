@@ -1,1 +1,0 @@
-Boxplot of CholesterolTotal by Alzheimer's diagnosis group.

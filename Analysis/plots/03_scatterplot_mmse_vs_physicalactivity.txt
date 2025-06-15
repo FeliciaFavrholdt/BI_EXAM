@@ -1,0 +1,1 @@
+Notebook 03 - Section: Functional & Lifestyle - Scatterplot showing the relationship between MMSE and Physical Activity, colored by Alzheimer's diagnosis.

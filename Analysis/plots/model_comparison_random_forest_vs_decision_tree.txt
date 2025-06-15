@@ -1,1 +1,0 @@
-Bar chart comparing accuracy, recall, and precision between Decision Tree and Random Forest models.

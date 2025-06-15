@@ -1,1 +1,0 @@
-Confusion matrix for Decision Tree model showing predictions of Alzheimer's diagnosis.

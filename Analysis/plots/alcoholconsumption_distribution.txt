@@ -1,1 +1,0 @@
-Distribution of AlcoholConsumption with KDE overlay.

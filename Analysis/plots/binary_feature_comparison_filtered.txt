@@ -1,1 +1,0 @@
-Grouped bar chart showing binary feature distribution by Alzheimer's diagnosis for a filtered set of features.

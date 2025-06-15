@@ -1,1 +1,0 @@
-Bar chart showing percentage of patients with AlcoholConsumption = 1, grouped by Alzheimer's diagnosis.

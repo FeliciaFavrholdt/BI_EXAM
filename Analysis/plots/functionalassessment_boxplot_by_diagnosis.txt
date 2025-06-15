@@ -1,1 +1,0 @@
-Boxplot of FunctionalAssessment grouped by diagnosis (0 = No, 1 = Alzheimer's).

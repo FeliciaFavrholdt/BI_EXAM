@@ -1,1 +1,0 @@
-Bar chart showing percentage of patients with HeadInjury = 1, grouped by Alzheimer's diagnosis.

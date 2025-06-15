@@ -1,0 +1,1 @@
+Notebook 03 - Section: Cholesterol Features - Plot: Boxplot showing CholesterolTotal levels grouped by Alzheimer's diagnosis.

@@ -1,1 +1,0 @@
-Distribution of SystolicBP with KDE overlay.

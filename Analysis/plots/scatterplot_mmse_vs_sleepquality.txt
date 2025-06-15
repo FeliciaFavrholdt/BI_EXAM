@@ -1,1 +1,0 @@
-Scatterplot showing the relationship between Sleep Quality and MMSE, colored by Alzheimer's diagnosis.

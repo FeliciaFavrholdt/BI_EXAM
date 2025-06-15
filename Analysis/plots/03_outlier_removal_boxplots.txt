@@ -1,0 +1,1 @@
+Notebook 03 - Section: Outlier Removal - Plot: Boxplots comparing MMSE, BMI, and CholesterolTotal before and after outlier filtering.

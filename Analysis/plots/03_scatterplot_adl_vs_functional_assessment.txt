@@ -1,0 +1,1 @@
+Notebook 03 - Section: Functional Comparison - Scatterplot showing the relationship between Functional Assessment and ADL, colored by Alzheimer's diagnosis.

@@ -1,0 +1,1 @@
+Notebook 03 - Section: Target Variable Overview - Plot: Bar chart showing the number of patients with and without Alzheimer's diagnosis.

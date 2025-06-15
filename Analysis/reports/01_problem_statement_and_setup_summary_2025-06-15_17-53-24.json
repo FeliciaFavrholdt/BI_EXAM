@@ -1,0 +1,31 @@
+{
+    "description": "Defined project scope, goals, research questions, folder structure, and reusable tools for saving figures and notebook summaries.",
+    "team_members": [
+        "Felicia Favrholdt",
+        "Fatima Majid Shamcizadh"
+    ],
+    "sprints_defined": 4,
+    "notebooks_planned": [
+        "01_Problem_Statement_And_Setup",
+        "02_Data_Loading_And_Preprocessing",
+        "03_Exploratory_Data_Analysis",
+        "04_Model_Training_and_Evaluation_all_features",
+        "05_Model_Training_and_Evaluation_chosen_featues",
+        "06_Results_and_Interpretation"
+    ],
+    "folders_created": [
+        "data",
+        "models",
+        "plots",
+        "reports"
+    ],
+    "tools_used": [
+        "Python 3.9",
+        "Jupyter Notebook",
+        "Visual Studio Code",
+        "GitHub",
+        "Streamlit",
+        "seaborn",
+        "scikit-learn"
+    ]
+}
