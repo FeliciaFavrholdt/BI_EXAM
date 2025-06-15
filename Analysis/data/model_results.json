@@ -1,0 +1,31 @@
+[
+    {
+        "model": "Decision Tree",
+        "accuracy": 0.77,
+        "auc": 0.74
+    },
+    {
+        "model": "Random Forest",
+        "accuracy": 0.85,
+        "auc": 0.87
+    },
+    {
+        "model": "Logistic Regression",
+        "accuracy": 0.81,
+        "auc": 0.83
+    },
+    {
+        "model": "Naive Bayes",
+        "accuracy": 0.79,
+        "auc": 0.85
+    },
+    {
+        "model": "Linear Regression",
+        "accuracy": 0.82,
+        "auc": 0.86
+    },
+    {
+        "model": "Mean-Shift Clustering",
+        "clusters_found": 6
+    }
+]

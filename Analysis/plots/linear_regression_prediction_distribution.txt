@@ -1,0 +1,1 @@
+Histogram showing the distribution of predicted values from the linear regression model.

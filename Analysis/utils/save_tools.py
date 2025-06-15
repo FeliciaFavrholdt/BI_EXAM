@@ -57,3 +57,22 @@ def save_plot(fig: Figure, filename: str, caption: str = "", folder_path: str = 
     print(f"Plot saved to: {image_path}")
     if caption:
         print(f"Caption saved to: {caption_path}")
+
+
+def save_model_results(model_results, filename="model_results.json", folder_path="../data"):
+    """
+    Saves model evaluation results to a JSON file.
+
+    Parameters:
+    - model_results (list): A list of dicts where each dict contains model name, accuracy, AUC, etc.
+    - filename (str): Name of the JSON file (default: 'model_results.json')
+    - folder_path (str): Folder to save the file (default: '../data')
+    """
+    os.makedirs(folder_path, exist_ok=True)
+    
+    filepath = os.path.join(folder_path, filename)
+
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(model_results, f, indent=4)
+
+    print(f"Model results saved to: {filepath}")
