@@ -1,0 +1,1 @@
+Notebook 05 – Clustering results visualized with PCA. Each point represents a patient, colored by cluster label.

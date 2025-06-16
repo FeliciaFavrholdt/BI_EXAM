@@ -20,32 +20,43 @@ GitHub Repository: [AlzheimerPredictor4u_BI_Exam
 - GitHub: [https://github.com/Fati01600](https://github.com/Fati01600)
 
 # Problem Statement
-
-
-# Context
-
-
-# Purpose
-
+*How can we use Business Intelligence and AI techniques to assess the risk of Alzheimer's disease based on demographic and lifestyle factors such as age, gender, health status, and daily habits, in order to support early detection and improve preventive care strategies?”*
 
 # Research Questions
+1. Can we predict the risk of Alzheimer's disease based on demographic and lifestyle factors such as age, gender, physical activity, and diet?
+2. Which health and lifestyle features are most predictive of an Alzheimer’s diagnosis?
+3. Can we build a predictive dashboard to visualize individual risk levels and support clinical decision-making?
 
+## Project Goals
 
-# Hypothesis
+The main goal of this project is to build a simple and practical system that can help doctors and healthcare-staff assess a patient’s risk of developing Alzheimer’s disease. We want to do this by using Business Intelligence (BI) and Artificial Intelligence (AI) techniques on real patient data. 
 
+### Our goals include:
 
-# Brief Annotation
-### Which challenge would you like to address?
+- Creating a machine learning model that can predict the likelihood of an Alzheimer’s diagnosis.
+- Identifying which features—such as age, gender, health conditions, and lifestyle habits are most strongly linked to Alzheimer’s risk.
+- Designing an interactive dashboard that presents predictions and feature insights in a clear, user-friendly way for clinical use
 
+## Hypotheses
 
-### Why is this challenge an important or interesting research goal?
+In this project, we aim to uncover the following patterns in the dataset:
+- **H1:** Patients over the age of 75 are more likely to be diagnosed with Alzheimer’s than younger individuals
+- **H2:** Lower MMSE (Mini-Mental State Exam) scores and higher CDR (Clinical Dementia Rating) scores are strong indicators of Alzheimer’s diagnosis
+- **H3:** Patients who report higher physical activity and better diet quality show lower risk levels for Alzheimer’s disease
 
+## Brief Annotation
 
-### What is the expected solution your project would provide?
+**1. Which challenge would you like to address?**  
+We want to solve the challenge of detecting Alzheimer’s disease early by analyzing patient data such as age, gender, health history, and lifestyle habits. Our goal is to use data to find patterns that show who might be at higher risk, so healthcare professionals can act sooner and provide the right care.
+    
+**2. Why is this challenge an important or interesting research goal?**  
+Alzheimer’s is a serious illness that affects memory and daily life, and it worsens over time. Early detection is key, but it’s not always easy. If we can use data to spot early warning signs, doctors can respond faster, which can help improve quality of life and slow the progression of the disease.    
 
-
-### What would be the positive impact of the solution, which category of users could benefit from it?
-
+**3. What is the expected solution your project would provide?**  
+We plan to build a machine learning model that uses real patient data to predict a person’s risk of Alzheimer’s. The results will be shown in a simple, visual dashboard that helps doctors and nurses quickly understand the predictions and which factors matter most.
+    
+**4. What would be the positive impact of the solution, and which category of users could benefit from it?**  
+Our solution can support doctors, nurses, and caregivers by giving them better tools to detect Alzheimer’s earlier. It could be used in clinics, hospitals, or memory care units to make smarter decisions, save time, and improve care for patients who need it most.
 
 ---
 

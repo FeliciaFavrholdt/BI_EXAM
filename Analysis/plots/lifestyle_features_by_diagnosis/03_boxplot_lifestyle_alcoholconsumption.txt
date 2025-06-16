@@ -1,0 +1,1 @@
+Notebook 03 - Section: Lifestyle Features - Plot: Boxplot showing AlcoholConsumption levels grouped by Alzheimer's diagnosis.

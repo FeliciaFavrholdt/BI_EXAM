@@ -1,0 +1,1 @@
+Notebook 05 – Confusion matrix for the Logistic Regression model showing predicted vs. actual Alzheimer's diagnosis.
