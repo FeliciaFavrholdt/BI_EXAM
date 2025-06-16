@@ -9,6 +9,8 @@ alzheimers_disease_data.csv
 # C extensions
 *.so
 
+.DS_Store
+
 # Distribution / packaging
 .Python
 build/
