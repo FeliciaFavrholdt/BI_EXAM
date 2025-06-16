@@ -1,0 +1,33 @@
+{
+    "description": "Trained and evaluated multiple supervised models for Alzheimer's classification using clinical, lifestyle, cognitive, and demographic features. Also performed unsupervised clustering for exploratory segmentation.",
+    "records_analyzed": 2149,
+    "features_used": 21,
+    "models_trained": [
+        "Logistic Regression",
+        "Decision Tree",
+        "Random Forest"
+    ],
+    "unsupervised_learning": [
+        "KMeans Clustering",
+        "PCA Projection"
+    ],
+    "evaluation_metrics": [
+        "Accuracy",
+        "Confusion Matrix",
+        "ROC AUC Curve",
+        "Precision-Recall Curve",
+        "Average Precision"
+    ],
+    "visual_outputs": [
+        "Confusion matrices and ROC/PR curves",
+        "Feature importance (Random Forest)",
+        "Cluster visualizations (PCA)"
+    ],
+    "key_results": {
+        "best_model": "Random Forest",
+        "best_accuracy": 0.8233,
+        "best_auc": 0.9406,
+        "best_ap": 0.9147
+    },
+    "output_file": "../data/model_results.csv"
+}

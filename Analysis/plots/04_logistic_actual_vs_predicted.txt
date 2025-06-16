@@ -1,0 +1,1 @@
+Notebook 04 - Section: Model Evaluation - Plot: Scatterplot showing actual diagnoses vs predicted probabilities using Logistic Regression.
