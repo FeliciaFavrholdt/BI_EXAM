@@ -26,23 +26,41 @@ This application presents a full **Data Science pipeline** to predict Alzheimer'
 
 The project follows these main steps:
 
-- Problem Statement  
-- Data Preparation  
-- Exploratory Data Analysis (EDA)  
-- Model Development  
-- Results & Evaluation  
-- Business Application
+- Problem Statement -> Data Preparation -> Exploratory Data Analysis (EDA)  -> Model Development  -> Results & Evaluation  -> Business Application
 
 </div>
 """, unsafe_allow_html=True)
 
 st.markdown("""---""")
 
+# TEAM MEMBERS SECTION
+st.markdown("""
+### Contributors
+
+- **Felicia Favrholdt** — *cph-ff62@cphbusiness.dk* — [GitHub](https://github.com/FeliciaFavrholdt)
+- **Fatima Majid Shamcizadh** — *cph-fs156@cphbusiness.dk* — [GitHub](https://github.com/Fati01600)
+
+> Group 4 — l25dat4bi1f — CPH Business Lyngby — Business Intelligence 2025
+
+---
+""")
+
 # PROBLEM STATEMENT SECTION
 st.markdown("""
 ### Problem Statement
 
 **How can we use Business Intelligence and AI techniques to assess the risk of Alzheimer's disease based on demographic and lifestyle factors such as age, gender, health status, and daily habits, in order to support early detection and improve preventive care strategies?**
+
+---
+""")
+
+# RESEARCH QUESTIONS SECTION
+st.markdown("""
+### Research Questions
+
+- Can we predict Alzheimer's risk using demographic and lifestyle data?
+- Which features are most predictive of an Alzheimer’s diagnosis?
+- Can we build an interactive dashboard to support clinical decision-making?
 
 ---
 """)
@@ -70,18 +88,6 @@ st.markdown("""
 ---
 """)
 
-# TEAM MEMBERS SECTION
-st.markdown("""
-### Contributors
-
-- **Felicia Favrholdt** — *cph-ff62@cphbusiness.dk* — [GitHub](https://github.com/FeliciaFavrholdt)
-- **Fatima Majid Shamcizadh** — *cph-fs156@cphbusiness.dk* — [GitHub](https://github.com/Fati01600)
-
-> Group 4 — l25dat4bi1f — CPH Business Lyngby — Business Intelligence 2025
-
----
-""")
-
 # DATASET SECTION
 st.markdown("""
 ### Dataset
@@ -93,16 +99,6 @@ st.markdown("""
 ---
 """)
 
-# RESEARCH QUESTIONS SECTION
-st.markdown("""
-### Research Questions
-
-- Can we predict Alzheimer's risk using demographic and lifestyle data?
-- Which features are most predictive of an Alzheimer’s diagnosis?
-- Can we build an interactive dashboard to support clinical decision-making?
-
----
-""")
 
 # FOOTER SECTION
 st.caption("CPH Business 2025 — Group 4 — Business Intelligence Exam Project")

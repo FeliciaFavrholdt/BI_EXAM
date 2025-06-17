@@ -1,0 +1,1 @@
+Notebook 04 - Section: Model Evaluation - Plot: ROC curve for Logistic Regression model with AUC score.

@@ -1,0 +1,1 @@
+Notebook 04 - Section: Model Evaluation - Plot: Bar chart of precision, recall, and F1-score for each class (0 = No Alzheimer's, 1 = Alzheimer's).

@@ -1,0 +1,1 @@
+Notebook 05 – K-Means clusters visualized in 2D after PCA reduction, revealing group separation patterns.

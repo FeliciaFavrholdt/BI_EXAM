@@ -1,0 +1,1 @@
+Notebook 05 – ROC curve for the Naive Bayes model showing diagnostic performance for Alzheimer's classification.

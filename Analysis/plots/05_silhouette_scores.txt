@@ -1,0 +1,1 @@
+Notebook 05 – Silhouette scores for k = 2 to 10, used to evaluate clustering quality and determine optimal number of clusters.

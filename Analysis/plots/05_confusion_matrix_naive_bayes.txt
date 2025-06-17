@@ -1,0 +1,1 @@
+Notebook 05 – Confusion matrix for the Naive Bayes model showing predicted vs. actual Alzheimer’s diagnosis.
