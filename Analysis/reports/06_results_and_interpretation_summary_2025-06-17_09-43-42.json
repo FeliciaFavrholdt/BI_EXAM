@@ -1,0 +1,41 @@
+{
+    "description": "Summarized model results and answered research questions from the Alzheimer's ML project.",
+    "best_model": "Random Forest",
+    "best_accuracy": 0.85,
+    "best_auc": 0.87,
+    "models_evaluated": [
+        {
+            "model": "Decision Tree",
+            "accuracy": 0.77,
+            "auc": 0.74
+        },
+        {
+            "model": "Random Forest",
+            "accuracy": 0.85,
+            "auc": 0.87
+        },
+        {
+            "model": "Logistic Regression",
+            "accuracy": 0.81,
+            "auc": 0.83
+        },
+        {
+            "model": "Naive Bayes",
+            "accuracy": 0.79,
+            "auc": 0.85
+        },
+        {
+            "model": "Linear Regression",
+            "accuracy": 0.82,
+            "auc": 0.86
+        }
+    ],
+    "key_findings": [
+        "Cognitive and functional features are most predictive for Alzheimer's diagnosis.",
+        "Random Forest achieved the highest accuracy (85%) and ROC AUC (0.87).",
+        "Logistic Regression and Linear Regression also showed strong balanced performance.",
+        "Naive Bayes performed slightly lower but still usable.",
+        "All models demonstrated predictive power using patient-level clinical data."
+    ],
+    "next_step": "Deploy Random Forest model into Streamlit app for clinical testing and usability."
+}
